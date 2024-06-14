@@ -1,0 +1,42 @@
+﻿@page
+    <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="jquery-3.7.1.min.js"></script>
+</head>
+
+
+<body>
+    <center>
+        <h1 style="font-family: Tiny5" id="titleasd"><a href="/" id="titleA" class="titleA">MADE BY KALOYAN</a></h1>
+    </center>
+    <style>
+        body {
+            background-color: skyblue;
+        }
+    </style>
+<center>
+    
+    <hr style="color: black; height: 2px; background-color: black; border: none;"></hr>
+</center>
+<div id="chatdiv" class="chatdiv">
+    <ul id ="chat" class="chat">
+          
+    </ul>
+</div>
+<div class="spacediv">
+
+</div>
+    <div id="sendmsgarea" class="sendmsgarea">
+        <input id="msgtxt" class="textareasend" placeholder="Send a message..."/>
+        <button id="sendmsg" class="sendmsgbttn" style="float: right">Send Message</button>
+</div>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/chat.js"></script>
+</body>    
+
