@@ -1,0 +1,241 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+
+.tiny5-regular {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-light {
+    font-family: "UbuntuLight", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+.regtext {
+    font-family: Ubuntu;
+    margin-top: 50px;
+    color: rgb(20, 87, 93);
+}
+
+.textarea {
+    font-family: Ubuntu;
+    text-align: center;
+    border-radius: 40px;
+    resize: none;
+    height: 30px;
+    width: 200px;
+    font: UbuntuLight;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+    padding: 5px;
+}
+    .textarea:hover {
+        border-color: black;
+    }
+
+.bttn {
+    background: #00579a;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+    opacity: 0.7;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    transition: border-color 0.3s;
+}
+
+    .bttn:hover {
+        opacity: 1;
+        border-color: black;
+    }
+
+.Submit {
+    text-align: center;
+}
+.titleA {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* Remove underline */
+}
+    .titleA:hover{
+        color: inherit;
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.textareasend {
+    font-family: Ubuntu;
+    text-align: left;
+    border-radius: 50px;
+    resize: none;
+    height: 90px;
+    width: 84%;
+    font: UbuntuLight;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+    padding: 5px;
+}
+
+    .textareasend:hover {
+        border-color: black;
+    }
+
+.sendmsgbttn {
+    background: #00579a;
+    color: white;
+    width: 15%;
+    height: 90px;
+    border-radius: 50px;
+    opacity: 0.7;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    transition: border-color 0.3s;
+}
+
+    .sendmsgbttn:hover {
+        opacity: 1;
+        border-color: black;
+    }
+
+.sendmsgarea {
+    
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+
+.chat {
+    margin-bottom: 90px;
+}
+
+.li-msg {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    font-family: Ubuntu;
+    text-align: left, center;
+    word-break: break-all;
+    margin-right: auto;
+    max-width: 35%;
+    width: fit-content;
+    word-break: break-all;
+    margin-block: 4px;
+    padding: 5px 10px 10px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-content: start;
+    height: fit-content;
+    clear: both;
+    margin-top: 0px;
+    min-height: 35px;
+    min-width: 35px;
+}
+
+.li-nam {
+    color: rgb(134, 127, 127, 100);
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: Ubuntu;
+    text-align: left, center;
+    word-break: break-all;
+    margin-right: auto;
+    max-width: 35%;
+    width: fit-content;
+    word-break: break-all;
+    margin-block: 4px;
+    padding: 0px 0px 0px 5px;
+    height: fit-content;
+    clear: both;
+    margin-bottom: 0px;
+    
+}
+
+.li-msg-r {
+    background-color: rgb(8, 127, 254);
+    border-radius: 20px;
+    font-family: Ubuntu;
+    text-align: right, center;
+    word-break: break-all;
+    margin-right: auto;
+    height: fit-content;
+    max-width: 35%;
+    width: fit-content;
+    word-break: break-all;
+    margin-block: 4px;
+    padding: 5px 10px 10px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    float: inline-end;
+    clear: both;
+    min-height: 35px;
+    min-width: 35px;
+}
+
+.li-msg-c {
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    font-family: Ubuntu;
+    text-align: center;
+    word-break: break-all;
+    margin-right: auto;
+    height: 35px;
+    max-width: 35%;
+    width: fit-content;
+    word-break: break-all;
+    margin-block: 4px;
+    padding: 5px 10px 10px 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.spacediv{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: center;
+}
+
+.chatdiv {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+    padding: 0px;
+}
